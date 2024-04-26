@@ -35,3 +35,9 @@ build/
 registration/.mvn/
 registration/mvnw
 registration/mvnw.cmd
+registration/target/
+
+emailsender/.mvn/
+emailsender/mvnw
+emailsender/mvnw.cmd
+emailsender/target/
