@@ -35,7 +35,7 @@ build/
 registration/.mvn/
 registration/mvnw
 registration/mvnw.cmd
-registration/target/
+registration/target/    
 
 emailsender/.mvn/
 emailsender/mvnw

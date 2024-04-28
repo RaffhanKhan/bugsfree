@@ -5,11 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@PropertySource({"application.properties","emailsender.properties"})
-public class EmailsenderApplication {
+@PropertySource({"classpath:application.properties","classpath:emailsender.properties"})
+public class EmailSenderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EmailsenderApplication.class, args);
+		SpringApplication.run(EmailSenderApplication.class, args);
 	}
 
 
