@@ -41,3 +41,8 @@ emailsender/.mvn/
 emailsender/mvnw
 emailsender/mvnw.cmd
 emailsender/target/
+
+configserver/.mvn/
+configserver/mvnw
+configserver/mvnw.cmd
+configserver/target/

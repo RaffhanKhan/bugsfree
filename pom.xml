@@ -11,6 +11,7 @@
 	<modules>
 		<module>registration</module>
 		<module>emailsender</module>
+		<module>configserver</module>
 	</modules>
 
 </project>

@@ -21,7 +21,7 @@ public class PropertyUtils {
 
         InputStream inputStream;
         try {
-            inputStream = PropertyUtils.class.getClassLoader().getResourceAsStream("emailsender.properties");
+            inputStream = PropertyUtils.class.getClassLoader().getResourceAsStream("email.properties");
             Properties p = new Properties();
             p.load(inputStream);
             value = p.getProperty(key);
